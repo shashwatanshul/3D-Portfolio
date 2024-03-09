@@ -244,7 +244,7 @@ export const projects = [
     name: "3D-Portfolio",
     description:
       "The 3D portfolio website is an innovative showcase built using a combination of technologies including Three.js, React Three Fiber, React Three Drei, React Spring, and Email.js. Three.js provides the foundation for creating 3D elements and scenes, while React Three Fiber facilitates the integration of Three.js into the React ecosystem, offering a declarative way to define 3D components using JSX. React Three Drei adds additional utilities and components to simplify the development process further, while React Spring enables smooth animations and transitions. Additionally, Email.js is utilized for integrating a contact form into the portfolio, allowing visitors to send emails directly from the website. This portfolio showcases the fusion of cutting-edge technologies to create an immersive and interactive experience for presenting projects and engaging with visitors.",
-    link: "https://shashwatanshul.co.in",
+    link: "https://shashwatsingh.co.in",
   },
   {
     iconUrl: foodbay,
