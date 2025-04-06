@@ -9,6 +9,8 @@ import fox from "./fox.png";
 import comments from "./comments.png";
 import cloudy from "./cloudy.png";
 import otp from "./otp.png";
+import zeno from "./zeno.ico";
+import dt from "./dt.png";
 
 export {
   hero,
@@ -22,4 +24,6 @@ export {
   comments,
   cloudy,
   otp,
+  zeno,
+  dt,
 };

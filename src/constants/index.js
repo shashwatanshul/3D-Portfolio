@@ -8,6 +8,8 @@ import {
   comments,
   cloudy,
   otp,
+  zeno,
+  dt,
 } from "../assets/images";
 import {
   threeD,
@@ -116,6 +118,30 @@ export const skills = [
 ];
 
 export const experiences = [
+  {
+    title: "ZENO",
+    company_name: "Front-end project for ZENO AI video editor",
+    icon: zeno,
+    iconBg: "#00008b",
+    date: "March 2024",
+    points: [
+      "Developed a visually appealing front-end project using React, Vite, and Tailwind for ZENO, an AI-powered video editing tool.",
+      "Showcased its features, pricing plans, customer reviews, FAQs, and download links in an engaging and responsive layout to enhance user experience.",
+    ],
+    link: "https://zeno.shashwatsingh.co.in",
+  },
+  {
+    title: "Dynamic Themes",
+    company_name: "Fullstack project showcasing dynamic themes and PERN",
+    icon: dt,
+    iconBg: "#000000",
+    date: "February 2024",
+    points: [
+      "A PERN e-commerce project with Neon Postgres for CRUD operations, DaisyUI for theme switching, Arcjet for bot detection & rate limiting, and Helmet for backend security.",
+      "The backend is secured against attacks, and UI themes adapt dynamically for user preference.",
+    ],
+    link: "https://dynamic-themes-8792b0cbc4e0.herokuapp.com/",
+  },
   {
     title: "OTP Email Validator",
     company_name: "Validation of verified emails through One-Time-Password",
@@ -275,12 +301,12 @@ export const socialLinks = [
 
 export const projects = [
   {
-    iconUrl: otp,
-    theme: "btn-back-orange",
-    name: "OTP Email Validator",
+    iconUrl: zeno,
+    theme: "btn-back-blue",
+    name: "ZENO",
     description:
-      "OTP Email Validator is a full-stack MERN project that integrates Nodemailer for email verification through OTP during registration. Users receive an OTP via email and must enter it to verify their email before accessing the home page. This process ensures only verified emails can register, enhancing security and preventing unauthorized access.",
-    link: "https://evening-basin-91117-fe7ab328601f.herokuapp.com",
+      "Developed a visually appealing front-end project using React, Vite, and Tailwind for ZENO, an AI-powered video editing tool. Showcased its features, pricing plans, customer reviews, FAQs, and download links in an engaging and responsive layout to enhance user experience.",
+    link: "https://zeno.shashwatsingh.co.in",
   },
   {
     iconUrl: cloudy,
@@ -289,22 +315,6 @@ export const projects = [
     description:
       "A weather application using React.js and the Visual Crossing Weather API. It displays current conditions like temperature, humidity, wind speed, heat index, visibility, and a weekly forecast. Background images and icons change with the weather. A search box allows finding weather at specific locations.",
     link: "https://weather.foxmail.fun",
-  },
-  {
-    iconUrl: comments,
-    theme: "btn-back-blue",
-    name: "Chatyaar",
-    description:
-      "Chatyaar is a real-time MERN stack chat app with Socket.io. Users register, upload a profile pic, and log in to access the chat dashboard. They can search and chat one-on-one or create groups for group chats. Group admins can edit names, add/remove users. Notifications alert users of new messages.",
-    link: "https://fathomless-atoll-70889-c0c660ba8aa0.herokuapp.com",
-  },
-  {
-    iconUrl: fox,
-    theme: "btn-back-red",
-    name: "FoxMail",
-    description:
-      "Foxmail: Web app with Email.js, Three.js, React Three Fiber, and React Three Drei. Features form with Name, Email, Message inputs & 3D Fox animation. Fox wiggles when idle, walks with user interaction, and runs during message sending. Interactive blend of email functionality & engaging animations.",
-    link: "https://foxmail.fun",
   },
   {
     iconUrl: threeD,
@@ -322,6 +332,40 @@ export const projects = [
       "Foodbay is an order management website for restaurant developed using MongoDB, Express.js, React.js, and Node.js, offering a range of features including user-authentication, a dynamic menu, responsive shopping cart and an admin panel for content management. The integration of the PhonePe payment gateway ensures secure and streamlined transactions. Demonstrating proficiency in full-stack development, payment gateway integration, and data security, the website seamlessly combines frontend and backend technologies to provide users with a seamless and secure online food ordering experience.",
     link: "https://www.foodybay.online",
   },
+
+  {
+    iconUrl: comments,
+    theme: "btn-back-blue",
+    name: "Chatyaar",
+    description:
+      "Chatyaar is a real-time MERN stack chat app with Socket.io. Users register, upload a profile pic, and log in to access the chat dashboard. They can search and chat one-on-one or create groups for group chats. Group admins can edit names, add/remove users. Notifications alert users of new messages.",
+    link: "https://fathomless-atoll-70889-c0c660ba8aa0.herokuapp.com",
+  },
+  {
+    iconUrl: fox,
+    theme: "btn-back-red",
+    name: "FoxMail",
+    description:
+      "Foxmail: Web app with Email.js, Three.js, React Three Fiber, and React Three Drei. Features form with Name, Email, Message inputs & 3D Fox animation. Fox wiggles when idle, walks with user interaction, and runs during message sending. Interactive blend of email functionality & engaging animations.",
+    link: "https://foxmail.fun",
+  },
+  {
+    iconUrl: dt,
+    theme: "btn-back-blue",
+    name: "Dynamic Themes",
+    description:
+      "A PERN e-commerce project with Neon Postgres for CRUD operations, DaisyUI for theme switching, Arcjet for bot detection & rate limiting, and Helmet for backend security. The backend is secured against attacks, and UI themes adapt dynamically for user preference.",
+    link: "https://dynamic-themes-8792b0cbc4e0.herokuapp.com/",
+  },
+  {
+    iconUrl: otp,
+    theme: "btn-back-orange",
+    name: "OTP Email Validator",
+    description:
+      "OTP Email Validator is a full-stack MERN project that integrates Nodemailer for email verification through OTP during registration. Users receive an OTP via email and must enter it to verify their email before accessing the home page. This process ensures only verified emails can register, enhancing security and preventing unauthorized access.",
+    link: "https://evening-basin-91117-fe7ab328601f.herokuapp.com",
+  },
+
   // {
   //   iconUrl: threads,
   //   theme: "btn-back-green",
